@@ -1,0 +1,295 @@
+.navbar{
+    display: flex;
+    /* padding: 10px; */
+    margin: 10px auto;
+    height: 80px;
+    background-color:#fff; 
+}
+ul{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+ul li{
+    padding: 10px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:hover  ul li a{
+    color: purple;
+}
+.logo img{
+   height: 80px; 
+}
+.welcome-sec{
+    height: 620px;
+    background-color: #00008033;
+    background-image: url(/images/ficial-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 24px;
+}
+.welcome-sec p{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}
+.welcome-sec h1{
+    padding-top: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+.welcome-text{
+    text-shadow: 2px 2px 2px purple;
+}
+.welcome-sec button{
+    height: 50px;
+    width: 15%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 12px;
+    background-color: purple;
+
+    
+}
+.welcome-sec button a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20PX;
+    /* margin-top: 30px; */
+}
+.service-div{
+    margin: 20px auto;
+    padding: 10px;
+    /* height:500px; */
+    background-color: #e0e7ed;
+}
+
+.row-one {
+    margin: 20px auto;
+    padding: 12px 20px;
+    display: flex;
+
+    /* shape-outside: 5px 5px 5px solid green; */
+}
+.services-col{
+    margin: 10px 20px;
+    padding: 8px;
+    width: 25%;
+    /* height: 240px; */
+    box-shadow: 10px 5px 5px purple;
+    border: 1px dotted darkorchid;
+    border-radius: 14px;
+    /* background-color: aqua; */
+
+}
+.col-one{
+    /* color: white; */
+}
+.service-div h1{
+text-align :center;
+font-size: 42px;
+    
+}
+.service-div h4{
+    text-align : center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.row-one p{
+    text-align: center;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.row-one h3{
+    text-align: center;
+}
+.services-col img{
+    margin:8px auto;
+    width: 75px;
+    display: block;
+
+}
+.team-member{
+    width: 330px;
+    border: 1px solid purple;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+
+}
+h4{
+    text-align: center;
+}
+.opinion-sec{
+    padding-top: 10px;
+    background-color:#ffff;
+}
+ 
+ .form-row {
+    display: flex;
+    margin: 10px auto;
+    /* height: 200px; */
+    padding: 15PX 20px;
+
+    
+ }
+ .col-1{
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid black; 
+ }
+
+
+ form input{
+    width:100%;
+    margin: 12px auto;
+    padding: 10px;
+    background-color: #e0e7ed;
+    border: 1px solid purple;
+    border-radius: 8px;
+    display: block;
+ 
+ }
+form{
+    margin: 10px 20px;
+    
+}
+
+ 
+ form textarea{
+    width:100%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #e0e7ed;
+    border: 1px solid purple;
+    border-radius: 8px;
+
+ }
+.col-1 h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-2 h3{
+    text-align: center;
+    font: 40px;
+    padding-top: 15px;
+}
+ 
+
+
+ 
+ .col-2 {
+    margin: 20px;
+    width: 50%;
+    padding: 20px;
+    /* margin: 20px; */
+border: 1px solid black;
+    border-radius: 20px;
+ }
+ .col-2 ul{
+    display:block;
+    text-align: center;
+    width: 100%;
+ }
+ .col-2 ul li {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+ }
+ .opinion-sec h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .opinion-sec p{
+    font-size: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin: 25px auto;
+    padding: 15px;
+    width: 90%;
+ }
+    .form-btn{
+        width: 200px;
+        height:auto;
+        background-color:purple;
+        border-radius: 15px;
+        border: none;
+        margin: 10px auto;
+        display: block;
+        padding: 8px;
+        
+        
+    }
+ .form-btn a{
+    margin: 10px auto;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+ }
+
+section h1{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 35px;
+/* color: grey; */
+}
+footer{
+    background-color: purple;
+    height: 120px;
+}
+footer ul{
+    text-decoration: none;
+    text-align: center;
+}
+footer ul li{
+    
+
+}
+/*-- icons li{
+    text-align: center;
+    display: flex;
+}
+*/
+
+}
+footer row{
+    display: flex;
+}
+.icons li img{
+    /* height:20px; */
+    /* padding: 20px */
+    color: white;
+    padding-top: 12px;
+}
+.icons  h3{
+    padding-right: 250px;
+    font-size: 20px;
+    margin: 30px auto;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icons h4{
+    padding: 20px 11Spx;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font: size 15px;;
+}
+
+
